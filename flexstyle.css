@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+ height:100vh ;
+ /* viewport height */
+ border: 2px solid black;
+ justify-content: space-around;
+ /* justify-content: center; */
+ /* to x axis */
+ align-items: center;
+ /* towards y axis */
+
+ /* flex-direction: column; by default it is row */
+
+ flex-wrap: wrap;
+ /* to not make it adjust forcely in the same line */
+ /* padding: 100%; */
+}
+.item{
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+    border: 2px solid gray ;
+    border-radius: 50%;
+}
